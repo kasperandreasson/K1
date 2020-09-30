@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+}
+
+h2 {
+  color: black;
+}
+
+.flex-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.flex-section aside {
+  max-width: 70%;
+}
+
+.flex-section img {
+  border: white solid;
+}
+
+.flex-bars {
+  display: flex;
+  background-color: black;
+  color: whitesmoke;
+  padding: 1%;
+  justify-content: space-between;
+  border: whitesmoke solid;
+}
+.flex-bars a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightslategrey;
+}
