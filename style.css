@@ -22,7 +22,7 @@ h2 {
 }
 
 .flex-section img {
-  border: white solid;
+  border: whitesmoke solid;
 }
 
 .flex-bars {
@@ -38,6 +38,9 @@ h2 {
   text-decoration: none;
 }
 
-a:hover {
+.flex-bars a:hover {
   color: lightslategrey;
+}
+.flex-bars footer {
+  justify-content: center;
 }
