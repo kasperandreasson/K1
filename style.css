@@ -1,12 +1,8 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   background-color: whitesmoke;
   font-family: "Quicksand", sans-serif;
-  color: black;
-}
-
-h2 {
   color: black;
 }
 
@@ -24,12 +20,14 @@ h2 {
 .flex-section img {
   border: whitesmoke solid;
 }
-
+.flex-section1 img {
+  border: whitesmoke solid;
+}
 .flex-bars {
   display: flex;
   background-color: black;
-  color: whitesmoke;
   padding: 1%;
+  color: whitesmoke;
   justify-content: space-between;
   border: whitesmoke solid;
 }
@@ -41,6 +39,16 @@ h2 {
 .flex-bars a:hover {
   color: lightslategrey;
 }
-.flex-bars footer {
-  justify-content: center;
+.flex-bars aside {
+  max-width: 10%;
+}
+
+.flex-section1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(161, 161, 161);
+}
+.flex-section1 aside {
+  max-width: 70%;
 }
