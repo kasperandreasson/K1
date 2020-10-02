@@ -10,18 +10,22 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: lightgray;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 10px 0px black;
 }
 
 .flex-section aside {
   max-width: 70%;
+  text-align: center;
 }
-
+.flex-section div {
+  text-align: center;
+}
 .flex-section img {
-  border: whitesmoke solid;
+  border: 6px steelblue solid;
 }
-.flex-section1 img {
-  border: whitesmoke solid;
+.flex-section2 img {
+  border: 6px steelblue solid;
 }
 .flex-bars {
   display: flex;
@@ -30,7 +34,7 @@ body {
   color: whitesmoke;
   justify-content: space-between;
   align-items: center;
-  border: whitesmoke solid;
+  border: 6px brown solid;
 }
 .flex-bars a {
   color: whitesmoke;
@@ -40,13 +44,32 @@ body {
 .flex-bars a:hover {
   color: lightslategrey;
 }
+
 .flex-bars aside {
   max-width: 10%;
 }
-
-.flex-section1 {
+.flex-section2 {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  background-color: rgb(161, 161, 161);
+  align-items: stretch;
+  background-color: aliceblue;
+}
+.flex-section2 nav {
+  max-width: 50%;
+  text-align: center;
+  border: 5px burlywood solid;
+  max-height: 100%;
+}
+.flex-section2 div {
+  text-align: center;
+  border: 5px burlywood solid;
+  max-height: 100%;
+}
+.flex-section2 a {
+  color: black;
+  text-decoration: none;
+}
+
+.flex-section2 a:hover {
+  color: red;
 }
